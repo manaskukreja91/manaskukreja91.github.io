@@ -1,0 +1,73 @@
+/* Set default font and background colors */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Style the main content */
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  flex: 1;
+  min-width: 300px;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+article p {
+  line-height: 1.5;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
